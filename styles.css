@@ -1,0 +1,121 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body {
+color: #555;
+margin: 0;
+font-family: 'Montserrat', sans-serif;
+}
+
+#header {
+    background-color: #444;
+    height: 150px;
+    line-height: 150px;
+}
+
+
+#header-title {
+    display: block;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#header-nav {
+    display: block;
+    float: right;
+margin-top: 0;
+}
+
+
+#header-nav li {
+    display: inline;
+    padding-left: 20px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#header a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+#header a:hover {
+    color: #D2D2D2;
+}
+
+.post {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 60px 0;
+    background-color:rgb(255, 255, 255);
+}
+
+.post-author img {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+}
+
+.post-author span {
+    margin-left: 16px;
+}
+
+.post-date {
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+
+p {
+    line-height: 1.5;
+    color: rgb(0, 0, 0);
+}
+
+
+
+#footer {
+    background-color: #444;
+    padding: 50px 0;
+}
+
+
+.post, .about {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+
+.about-author img {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+}
+
+#content {
+    background-color: #555;
+}
+
+
+
+.post-title{
+   color: rgb(0, 0, 0);
+}
+
+
+.brline {
+    height: 15px;
+}
+
+.about-content  p {
+    color: white;
+}
+
